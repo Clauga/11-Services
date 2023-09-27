@@ -18,3 +18,17 @@ export class CocktailListComponent implements OnInit{
   });
 }
 }
+// export class CocktailListComponent {
+
+//   constructor(public cocktailService: CocktailService) { }
+
+//   cocktails: Array<Cocktail> = [];
+
+//   ngOnInit(): void {
+//     this.cocktailService.getCocktails().subscribe(cocktailsFromJsonFile => {
+//       this.cocktails = cocktailsFromJsonFile;
+//       console.log(this.cocktails)
+//     });
+//   }
+
+// }
